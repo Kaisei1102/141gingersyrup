@@ -39,6 +39,9 @@ body {
   height: 100%;
   font-family: "Garamond", "Palatino Linotype", "Times New Roman", serif;
   line-height: 1.6;
+   margin: 0; /* デフォルトのbodyマージンを削除 */
+  padding: 0; /* デフォルトのbodyパディングを削除 */
+  overflow-x: hidden; /* 小さい画面での水平スクロールバーを防ぐ */
 }
 
 /* 全体のレイアウト */
@@ -47,11 +50,7 @@ body {
   box-sizing: border-box; /* パディングとボーダーが要素の合計幅/高さに含まれるようにする */
 }
 
-body {
-  margin: 0; /* デフォルトのbodyマージンを削除 */
-  padding: 0; /* デフォルトのbodyパディングを削除 */
-  overflow-x: hidden; /* 小さい画面での水平スクロールバーを防ぐ */
-}
+
 
 /* menu-button */
 .menu-button {
@@ -1121,10 +1120,7 @@ margin-top: 250px;
 }
 
 
-body {
-  margin: 0;
-  padding: 0;
-}
+
 
 /* もし .company-profile-wrapper が存在し、
    それが原因で .contact-section が広がらない場合、
