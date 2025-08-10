@@ -41,9 +41,15 @@ body {
   line-height: 1.6;
    margin: 0; /* デフォルトのbodyマージンを削除 */
   padding: 0; /* デフォルトのbodyパディングを削除 */
-  overflow-x: hidden; /* 小さい画面での水平スクロールバーを防ぐ */
+ 
 }
 
+body {
+  
+   margin: 0; /* デフォルトのbodyマージンを削除 */
+  padding: 0; /* デフォルトのbodyパディングを削除 */
+  overflow-x: hidden; /* 小さい画面での水平スクロールバーを防ぐ */
+}
 /* 全体のレイアウト */
 /* 一般的なベストプラクティス */
 * {
